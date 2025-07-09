@@ -172,7 +172,7 @@ def create_conversion_volume_chart(conversation_data, title, selected_category=N
         yaxis=dict(
             title='Number of Conversations',
             side='left',
-            titlefont=dict(color='blue'),
+            title_font=dict(color='blue'),
             tickfont=dict(color='blue')
         ),
         yaxis2=dict(
@@ -180,7 +180,7 @@ def create_conversion_volume_chart(conversation_data, title, selected_category=N
             side='right',
             overlaying='y',
             range=[y2_min, y2_max],
-            titlefont=dict(color='red'),
+            title_font=dict(color='red'),
             tickfont=dict(color='red')
         ),
         height=500,
